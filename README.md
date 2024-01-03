@@ -1,7 +1,4 @@
-# ScrimbaBootcamp2024
-'Open-source' group project for Scrimba Bootcamp students to get practice with team workflow.
-
-# 🖥️ A Scrimba Bootcamp Exclusive Open Source Project
+# 🖥️ ScrimbaBootcamp2024 - A Scrimba Bootcamp Exclusive Open Source Project
 
 ##### ⚠️ NOTE
 _To take part in this open source project, please consider joining the Scrimba bootcamp [here](https://scrimba.com/bootcamp)_
