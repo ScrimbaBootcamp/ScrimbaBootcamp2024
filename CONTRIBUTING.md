@@ -24,4 +24,4 @@ This project will use HTML, CSS, Vanilla JavaScript and Markdown. The hope is th
 
 Here is a short video that will demonstrate the process of forking, cloning, adding an upstream remote repository, creating a feature branch, and submitting a pull request. :sweat_smile: (It does get cut off at the very end! GitHub will tell you if your changes are able to be merged, pending a reviewers approval. I think you just have to confirm that you want to submit the pull request by pressing one more button on that page.)
 
-[Getting Started with the Scrimba Bootcamp Collaborative Project](https://www.loom.com/share/daa59346512449f6a0d1779c9d533425?sid=b8cf5413-0539-46d8-b72b-09c7412fbf77){:target=”_blank”}
+[Getting Started with the Scrimba Bootcamp Collaborative Project](https://www.loom.com/share/daa59346512449f6a0d1779c9d533425?sid=b8cf5413-0539-46d8-b72b-09c7412fbf77)
