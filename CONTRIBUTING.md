@@ -24,4 +24,6 @@ This project will use HTML, CSS, Vanilla JavaScript and Markdown. The hope is th
 
 Here is a short video that will demonstrate the process of forking, cloning, adding an upstream remote repository, creating a feature branch, and submitting a pull request. :sweat_smile: (It does get cut off at the very end! GitHub will tell you if your changes are able to be merged, pending a reviewers approval. I think you just have to confirm that you want to submit the pull request by pressing one more button on that page.)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/daa59346512449f6a0d1779c9d533425?sid=e237142f-ef3d-44e4-ac93-afbc20c493ab" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.loom.com/embed/daa59346512449f6a0d1779c9d533425?sid=e237142f-ef3d-44e4-ac93-afbc20c493ab" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
