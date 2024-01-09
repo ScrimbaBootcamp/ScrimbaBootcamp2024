@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: #2e354f;
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+strong {
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ef5839;
+}
+
+a {
+  color: #ef5839;
+}
+
+a:hover,
+a:focus {
+  color: #d4b44c;
+}
+
+.scrimba-bootcamp {
+  font-size: 2rem;
+}
+
+/* Layout */
+
+header {
+  background: #2e354f;
+  padding: 45px 0;
+  color: #fff;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+  /* border: 2px solid magenta; */
+}
+
+.section-two,
+.section-four {
+  background: #2e354f;
+  color: #fff;
+}
