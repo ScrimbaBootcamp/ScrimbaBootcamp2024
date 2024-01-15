@@ -1,0 +1,39 @@
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.img-grid {
+    display: grid;
+    grid-gap: 0.5em;
+    padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-grid img {
+    height: 200px;
+}
+
+@media(min-width: 480px) {
+    .img-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-grid img {
+        height: 250px;
+    }
+
+}
+
+@media(min-width: 768px) {
+    .img-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img-grid img {
+        height: 300px;
+    }
+
+}
