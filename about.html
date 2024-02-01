@@ -7,15 +7,55 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <nav>
-            <ul>
+        <nav class="nav-container">
+            <h1 class="nav-title"><a href="https://scrimba.com/learn/frontend" target="_blank">Scrimba 2024</a></h1>
+            <ul class="nav-bar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="resources.html">Resources</a></li>
             </ul>
         </nav>
-        <h1>About Us</h1>
+        <main class="about">
+            <h1 class="about-title">About Us</h1>
+            <p class="about-scrimba">
+                Scrimba is a community of developers sharing knowledge through interactive coding screencasts. We believe technology is the best way to learn, which is why we’re focused on giving you the practical skills you need to get your dream job. We challenge you to learn by doing.
+            </p>
+            <p class="about-scrimba">
+                Currently our bootcamp participants are working on an open source project. They are all taking turns coding to create this wonderful and interactive website. As each one is trailblazing through the "Frontend Developer Career Path", each of us are in different learning stages. Join us on our journey to become one of the next great frontend developers.
+            </p>
+    
+            <h2 class="current-dev">These are the great developer working together on this one of a kind Open Source Project:</h2>
+            <button class="add-dev-btn" id="add-dev-btn">Add Developer</button>
+            <div class="dev-card" id="about-current-dev"></div>
+        </main>
+
+        <section class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close" id="close">&times;</span>
+                <form action="POST" id="form" class="form">
+                    <label for="image" class="label">Image</label>
+                    <input type="file" id="image" class="input-form
+                    " name="image" />
+                    <label for="name" class="label">Name:</label>
+                    <input type="text" id="name" class="input-form
+                    " name="name" placeholder="Enter your name" />
+                    <label for="github" class="label">Github:</label>
+                    <input type="text" id="github" class="input-form
+                    " name="github" placeholder="Enter your github" />
+                    <label for="twitter" class="label">Twitter:</label>
+                    <input type="text" id="twitter" class="input-form
+                    " name="twitter" placeholder="Enter your twitter" />
+                    <label for="linkedin" class="label">Linkedin:</label>
+                    <input type="text" id="linkedin" class="input-form
+                    " name="linkedin" placeholder="Enter your linkedin" />
+                    <label for="projects" class="label">Projects:</label>
+                    <input type="text" id="projects" class="input-form" name="project" placeholder="Enter your projects">
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
         <script src="main.js" type="module"></script>
     </body>
 </html>
