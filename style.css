@@ -16,13 +16,8 @@ body{
     box-shadow: 2px 2px 4px #36454f;
 }
 
-.nav-title {
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-}
 
-.nav-title a {
+nav a {
     text-decoration: none;
     color: bisque;
     font-size: 2.5rem;
@@ -50,12 +45,18 @@ body{
 
 .nav-bar a:hover,
 .nav-bar a:focus,
-.nav-title a:hover,
-.nav-title a:focus{
+nav img:hover,
+nav img:focus{
     cursor: pointer;
     color: #bd07ce;
     border-bottom: 3px solid #bd07ce;
 }   
+
+nav img:hover,
+nav img:focus {
+    transform: scale(1.1);
+    padding-bottom: .5rem;
+}
 
 /* Home Page */
 
